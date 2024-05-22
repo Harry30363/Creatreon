@@ -1,0 +1,114 @@
+.Dashboard_dashboard {
+    display: flex;
+  }
+  
+  .Dashboard_sidebar {
+    width: 200px;
+    background-color: #2c2c2c;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .Dashboard_sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .Dashboard_sidebar li {
+    margin: 20px 0;
+  }
+  
+  .Dashboard_content {
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .Dashboard_header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .Dashboard_profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Dashboard_profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .Dashboard_profile-info h2 {
+    margin: 0;
+  }
+  
+  .Dashboard_create-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Dashboard_create-button:hover {
+    padding-top: 60px;
+    background-color: #0056b3;
+  }
+  
+  .Dashboard_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Dashboard_modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .Dashboard_modal-content h3 {
+    margin-top: 0;
+  }
+  
+  .Dashboard_modal-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Dashboard_modal-content li {
+    margin: 10px 0;
+  }
+  
+  .Dashboard_close-button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0;
+  }
+  
+  .Dashboard_close-button:hover {
+    background-color: #c82333;
+  }
+  
